@@ -1,0 +1,33 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "elinariSoulborneFeat",
+				"abbreviation": "EC",
+				"full": "Elinari Custom - Soul Re-Alignment",
+				"authors": [
+					"Tegan \"Elinari\" Harris"
+				],
+				"version": "1.0",
+				"url": "https://twitter.com/Elinari_R",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0
+	},
+	"feat": [
+		{
+			"name": "Soul Re-Alignment",
+			"source": "EC",
+			"prerequisite": [
+				{
+					"special": "Soulborne Sorcerer"
+				}
+			],
+			"entries": [
+				"Manipulation of the soul is not without consequences- overuse of Anima can cause a Soulborne to end up locked into a Soul Shroud that is not their own.",
+				"If you have not adopted a new Shroud in 48 hours, you become more familiar with your already-created Shrouds. You now lose a full point of WHATEVER IT'S CALLED on a long rest."
+			]
+		}
+	]
+}
