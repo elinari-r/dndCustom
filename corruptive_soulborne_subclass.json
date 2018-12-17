@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "corruptiveSoulborne",
+        "abbreviation": "EC",
+        "full": "Elinari Custom - Corruptive Soulborne subclass",
+        "authors": [
+          "Tegan \"Elinari\" Harris"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "class": "Soulborne",
+      "name": "Corruptive",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Corruptive Soul",
+            "entries": [
+              "The Corruptive Soulborne is intently aware of the raw potential power souls can possess. Whether by choice or circumstance, the Weave has led them in search of souls with immense untapped potential. By incorporating a soul skilled in the blade, the Corruptive Soulborne can make their arcane attacks more lethal; while by taking on aspects of a sneakier soul, they can make their attacks sting and still get themselves out of harm's way. This type of Soulborne keeps their powers tightly focused, and honed to a deadly precision.",
+              "You also gain the Feature: Focal Point, which grants additional abilities at each level where you gain a Corruptive Soul feature",
+                  {
+                    "name": "Soul Link",
+                    "entries": [
+                      "Starting at 3rd level, after spending 10 minutes of casting you link souls with another willing creature. This enables the reactionary feature: Reactive Soul."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Reactive Soul",
+                    "entries": [
+                      "A side effect of the Adaptive Soul is the sway of emotions that dictate their very being. Their abilities come from emotional stimuli more often than their willful intent. The Paths the Soulborne takes determine the powers granted.",
+                      "Starting at 3rd level, when the creature with which you share the Soul Link is attacked and before the GM declares the results of the attack roll, your emotional response manifests into two missiles of Arcane energy.",
+                      "This feature may only happen if you have not already used a Reaction this round, and can only occur once per round when the first attack roll is made."
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Focal Point",
+                "entries": [
+                  "The nature of the Adaptive Soul is the influence that external factors play on their emotions, and their emotional state dictating the evolution of their Soulborne Metamorphosis.",
+                  "At 3rd, 6th, 10th, and 14th level, you gain the Threshold, Temptation, Transformation, and Atonement Paths respectively. The Adaptive Soulborne's path is determined by the emotional stimuli that have affected them most profoundly throughout their life.",
+                  {
+                    "type": "entries",
+                    "entries": [
+                      {
+                        "type": "inset",
+                        "name": "Ruling Emotions",
+                        "entries": [
+                          "The Ruling Emotion should be based on the character's roleplay and the most impactful, prominent, or present emotional state of the Adaptive Soulborne's current milestone.",
+                          "Example: at 3rd level, when the Paths first emerge, the backstory of the character and all the events in the first three levels of the Adaptive Soulborne's journey thus far will inform the decision. Between 3rd level and 6th level, only the events of the campaign between those milestones should be taken into account unless the GM and player agree otherwise.",
+                          "This decision should always be made between the Soulborne player and the GM with agreements on both sides."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Focal Point: some name",
+                    "entries": [
+                      "Starting their journeys, the Soulborne will cross the threshold between their past life and their new life of adventuring. Thus the Threshold path sets them on their forward trajectory in life.",
+                      "Your Reactive Soul ability now acts according to the table below.",
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "Ruling Emotion", "Effect", "Damage/Missile"
+                        ],
+                        "colStyles": [
+                          "col-xs-3", "col-xs-3", "col-xs-3"
+                        ],
+                        "rows": [
+                          ["Hope", "Radiant damage", "{@dice 1d4+1}"],
+                          ["Remorse", "Psychic damage", "{@dice 1d4+1}"],
+                          ["Anger", "Fire damage", "{@dice 1d4+1}"],
+                          ["Grief", "Cold damage", "{@dice 1d4+1}"],
+                          ["Bonds", "Force", "{@dice 1d4+1}"]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Focal Point: some name",
+                    "entries": [
+                      "As power grows, so does the temptation to abuse that power.",
+                      "Your Reactive Soul ability now acts according to the table below.",
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "Ruling Emotion", "Effect", "Damage/Missile"
+                        ],
+                        "colStyles": [
+                          "col-xs-3", "col-xs-3", "col-xs-3"
+                        ],
+                        "rows": [
+                          ["Hope", "{@spell Stable Link|bcc}", "{@dice 1d4+2}"],
+                          ["Remorse", "{@spell Discerning Eye|bcc}", "{@dice 1d4+2}"],
+                          ["Anger", "{@spell Baleful Word|bcc}", "{@dice 1d4+2}"],
+                          ["Grief", "{@spell Hell's Bells|bcc}", "{@dice 1d4+2}"],
+                          ["Bonds", "{@spell Protector|bcc}", "{@dice 1d4+2}"]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Focal Point: some name",
+                    "entries": [
+                      "For better or worse, the Soulborne's power is manifesting into its own. With the ability to Infuse Anima comes the ability to transform their power. The Transformation step is one that will define them.",
+                      "Your Reactive Soul ability now acts according to the table below.",
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "Ruling Emotion", "Effect", "Damage/Missile"
+                        ],
+                        "colStyles": [
+                          "col-xs-3", "col-xs-3", "col-xs-3"
+                        ],
+                        "rows": [
+                          ["Hope", "{@spell Hallowed Link|bcc}", "{@dice 1d4+3}"],
+                          ["Remorse", "{@spell Eye for an Eye|bcc}", "{@dice 1d4+3}"],
+                          ["Anger", "+2 missiles (no cost)", "{@dice 1d4+3}"],
+                          ["Grief", "{@spell Fight or Flight|bcc}", "{@dice 1d4+3}"],
+                          ["Bonds", "{@spell Soul Sacrifice|bcc}", "{@dice 1d4+3}"]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Focal Point: some name",
+                    "entries": [
+                      "For the good you may have done, there will be regrets and sins to attone for. The final stage of the Soulborne's journey is one of righting wrongs- no matter how small they may seem.",
+                      "Your Reactive Soul ability now acts according to the table below.",
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "Ruling Emotion", "Effect", "Damage/Missile"
+                        ],
+                        "colStyles": [
+                          "col-xs-3", "col-xs-3", "col-xs-3"
+                        ],
+                        "rows": [
+                          ["Hope", "{@spell Link of Alacrity|bcc}", "{@dice 1d4+4}"],
+                          ["Remorse", "{@spell Chains of Guilt|bcc}", "{@dice 1d4+4}"],
+                          ["Anger", "{@spell Tenebrae|bcc}", "{@dice 1d4+4}"],
+                          ["Grief", "{@spell Bound by Grief|bcc}", "{@dice 1d4+4}"],
+                          ["Bonds", "{@spell Twin Souls|bcc}", "{@dice 1d4+4}"]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Final Confluence",
+                    "entries": [
+                      "At 20th level, when Reactive Soul is triggered, all four of the effects from each path that has been taken occur simultaneously."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "BCC",
+          "shortName": "Adaptive"
+        }
+      ]
+}
