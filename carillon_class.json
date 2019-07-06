@@ -1,0 +1,397 @@
+{
+    "_meta": {
+      "sources": [
+        {
+          "json": "EHB",
+          "abbreviation": "EHB",
+          "full": "Elinari Homebrew",
+          "authors": [
+            "Tegan \"Elinari\" Harris"
+          ],
+          "version": "1.0.0",
+          "targetSchema": "1.0.0"
+        }
+      ]
+    },
+    "class": [
+      {
+        "name": "Carillon",
+        "source": "EHB",
+        "hd": {
+          "number": 1,
+          "faces": 8
+        },
+        "proficiency": [
+          "wis",
+          "cha"
+        ],
+        "classTableGroups": [
+          {
+            "colLabels": [
+              "{@filter Cantrips Known|spells|level=0|class=Carillon (EHB)}"
+            ],
+            "rows": [
+              [3],
+              [3],
+              [3],
+              [4],
+              [4],
+              [4],
+              [4],
+              [4],
+              [4],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5],
+              [5]
+            ]
+          },
+          {
+            "title": "Spell Slots per Spell Level",
+            "colLabels": [
+              "{@filter 1st|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 2nd|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 3rd|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 4th|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 5th|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 6th|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 7th|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 8th|spells|level=1|class=Carillon (EHB)}",
+              "{@filter 9th|spells|level=1|class=Carillon (EHB)}"
+            ],
+            "rows": [
+              [2,0,0,0,0,0,0,0,0],
+              [3,0,0,0,0,0,0,0,0],
+              [4,2,0,0,0,0,0,0,0],
+              [4,3,0,0,0,0,0,0,0],
+              [4,3,2,0,0,0,0,0,0],
+              [4,3,3,0,0,0,0,0,0],
+              [4,3,3,1,0,0,0,0,0],
+              [4,3,3,2,0,0,0,0,0],
+              [4,3,3,3,1,0,0,0,0],
+              [4,3,3,3,2,0,0,0,0],
+              [4,3,3,3,2,1,0,0,0],
+              [4,3,3,3,2,1,0,0,0],
+              [4,3,3,3,2,1,1,0,0],
+              [4,3,3,3,2,1,1,0,0],
+              [4,3,3,3,2,1,1,1,0],
+              [4,3,3,3,2,1,1,1,0],
+              [4,3,3,3,2,1,1,1,1],
+              [4,3,3,3,3,1,1,1,1],
+              [4,3,3,3,3,2,1,1,1],
+              [4,3,3,3,3,2,2,1,1]
+            ]
+          }
+        ],
+        "startingProficiencies": {
+          "armor": [
+            "light"
+          ],
+          "weapons": [
+            "daggers",
+            "darts",
+            "slings",
+            "quarterstaffs",
+            "light crossbows",
+            "shortsword",
+            "scimitar",
+            "rapier"
+          ],
+          "skills": {
+            "choose": 2,
+            "from": [
+              "Arcana",
+              "History",
+              "Insight",
+              "Investigation",
+              "Perception",
+              "Religion",
+              "Survival"
+            ]
+          }
+        },
+        "startingEquipment": {
+          "additionalFromBackground": true,"default": [
+            "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+            "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+            "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+            "(a) a {@item dagger|phb|dagger} of (b) a sword you have proficiency with"
+          ],
+          "goldAlternative": "{@dice 3d4x10|3d4 x 10|Starting Gold}"
+        },
+        "multiclassing": {
+          "requirements": {
+            "wis": 15
+          }
+        },
+        "classFeatures": [
+          [
+            {
+              "name": "Spellcasting",
+              "entries": [
+                  "INTRO HERE",
+  
+                {
+                  "type": "entries",
+                  "name": "Cantrips",
+                  "entries": [
+                    "At 1st level, you know three cantrips of your choice from the Carillon spell list. You learn an additional Carillon cantrip of your choice at 4th level and another at 10th level."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Preparing and Casting Spells",
+                  "entries": [
+                    "The Carillon table shows how many spell slots you have to cast your Carillon spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                    "You prepare the list of Carillon spells that are available for you to cast, choosing from the Carillon spell list. When you do so, choose a number of Carillon spells equal to your Wisdom modifier + your Carillon level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                    "For example, if you are a 3rd-level Carillon, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+                    "You can change your list of prepared spells when you finish a long rest. Preparing a new list of Carillon spells requires time spent practising ward forms: at least 1 minute per spell level for each spell on your list."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Spellcasting Ability",
+                  "entries": [
+                    "Wisdom is your spellcasting ability for your Carillon spells, as you draw on your knowledge of various deathforms to focus your casting. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Carillon spell you cast and when making an attack roll with one.",
+                    {
+                      "type": "abilityDc",
+                      "name": "Spell",
+                      "attributes": [
+                        "wis"
+                      ]
+                    },
+                    {
+                      "type": "abilityAttackMod",
+                      "name": "Spell",
+                      "attributes": [
+                        "wis"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Carillon Bells",
+                  "entries": [
+                    "Your bells are how you channel your spells, and how you cast them out towards enemies. If you are without your bells or any other metal item that can be rung or struck to cause sound, your spells are harder to cast as you rely on whistling to carry the required notes. Your spell DC is reduced by 2."
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "name": "Something else?",
+              "entries": [
+                "Some stuff here"
+              ]
+            },
+            {
+              "name": "SECOND LEVEL",
+              "entries": [
+                {
+                  "type": "entries",
+                  "entries": [
+                    "STUFF HERE."
+                  ]
+                }
+              ]
+            }
+          ],
+          [],
+          [
+            {
+              "name": "Ability Score Improvement",
+              "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+              ]
+            }
+          ],
+          [
+            {
+                "name": "FIFTH LEVEL",
+                "entries": [
+                  "STUFF HERE"
+                ]
+              }
+          ],
+          [
+            {
+              "name": "SIXTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [],
+          [
+            {
+              "name": "EIGHTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [],
+          [
+            {
+              "name": "TENTH LEVEL",
+              "entries": [
+                "STUFF HERE."
+              ]
+            }
+          ],
+          [
+            {
+                "name": "ELEVENTH LEVEL",
+                "entries": [
+                  "STUFF HERE."
+                ]
+              }
+          ],
+          [
+            {
+              "name": "TWELFTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [],
+          [
+            {
+              "name": "FOURTEENTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [],
+          [
+            {
+              "name": "SIXTEENTH LEVEL",
+              "entries": [
+                "STUFF HERE."
+              ]
+            }
+          ],
+          [
+            {
+              "name": "SEVENTEENTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [
+            {
+              "name": "EIGHTEENTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [
+            {
+              "name": "NINETEENTH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ],
+          [
+            {
+              "name": "TWENTIETH LEVEL",
+              "entries": [
+                "STUFF HERE"
+              ]
+            }
+          ]
+        ],
+        "subclassTitle": "Placeholder",
+        "subclasses": [
+          {
+            "name": "Placeholder",
+            "subclassFeatures": [
+              [
+                {
+                  "name": "Placeholder",
+                  "entries": [
+                    "Placeholder"
+                  ]
+                },
+                {
+                  "name": "Placeholder",
+                  "entries": [
+                    "Placeholder"
+                  ]
+                }
+              ],
+              [
+                {
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Placeholder",
+                      "entries": [
+                        "Stuff"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Placeholder",
+                      "entries": [
+                        "Stuff"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Placeholder",
+                      "entries": [
+                        "Stuff"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "name": "Placeholder",
+                      "entries": [
+                        "Stuff"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ],
+            "source": "EHB",
+            "shortName": "Placeholder"
+          }
+        ]
+      }
+    ]
+  }
