@@ -1,0 +1,542 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "BCC",
+        "abbreviation": "BCC",
+        "full": "badgr's Custom Compendium",
+        "authors": [
+          "Dale \"badgr_\" Emasiri",
+          "Tegan \"Elinari\" Harris"
+        ],
+        "version": "1.0.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Dual-Persona Fighter",
+      "source": "BCC",
+      "hd": {
+        "number": 1,
+        "faces": 10
+      },
+      "proficiency": [
+        "str",
+        "con"
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "light",
+		      "medium",
+		      "heavy",
+		      "shields"
+        ],
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "skills": {
+          "choose": 2,
+          "from": [
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
+            "Insight",
+            "Intimidation",
+		      	"Perception",
+		      	"Survival"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,"default": [
+          "(a) a {@item chain mail|phb} or (b) any {@item leather|phb}, {@item longbow|phb}, and 20 {@item arrows|phb}",
+          "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+          "(a) a {@item light crossbow|phb} and 20 {@item bolts|phb} or (b) two {@item handaxe|phb}",
+          "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+        ],
+        "goldAlternative": "{@dice 5d4x10|5d4 x 10|Starting Gold}"
+      },
+      "multiclassing": {
+        "requirements": {
+          "str": 13
+        }
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Fighting Style",
+            "entries": [
+                "Each personality adopts a particular style of fighting that matches their temperament. Choose one of the following options for each personality. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+              {
+                "type": "entries",
+                "name": "Archery",
+                "entries": [
+                  "You gain a +2 bonus to attack rolls you make with ranged weapons."
+                ]
+              },
+			        {
+                "type": "entries",
+                "name": "Defense",
+                "entries": [
+                  "While you are wearing armor, you gain a +1 bonus to AC."
+                ]
+              },
+			        {
+                "type": "entries",
+                "name": "Dueling",
+                "entries": [
+                  "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+                ]
+              },
+			        {
+                "type": "entries",
+                "name": "Great Weapon Fighting",
+                "entries": [
+                  "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+                ]
+              },
+			        {
+                "type": "entries",
+                "name": "Protection",
+                "entries": [
+                  "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+                ]
+              },
+			        {
+                "type": "entries",
+                "name": "Two-Weapon Fighting",
+                "entries": [
+                  "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Second Wind",
+            "entries": [
+              "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+            ]
+          },
+          {
+            "name": "Defensive: Favoured Enemy",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+				          "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+				          "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+				          "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Offensive: Danger Sense",
+            "entries": [
+              "At 1st level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Maneuvers",
+            "entries": [
+              "From 2nd level, your various tactics in combat are well-practiced enough to be considered a 'maneuver', if this was through formal training.",
+              "Choose one maneuver from the list below - only the Defensive personality may use this maneuver.",
+              "In order to use these maneuvers, you gain 4 superiority dice (d8s).",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Disarming Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Distracting Strike",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Feinting Attack",
+                    "entries": [
+                      "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll. The advantage is lost if not used on the turn you gain it."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Goading Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Maneuvering Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Parry",
+                    "entries": [
+                      "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Precision Attack",
+                    "entries": [
+                      "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Pushing Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Riposte",
+                    "entries": [
+                      "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Sweeping Attack",
+                    "entries": [
+                      "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Trip Attack",
+                    "entries": [
+                      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Offensive: Action Surge/Maneuvers",
+            "entries": [
+              "At 2nd level, you match your defensive side with a situational maneuver of your own.",
+              "Choose one maneuver from the list above - both Offensive and Defensive personalities may use this maneuver.",
+              "You share the pool of superiority dice with the Defensive personality.",
+              "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Horde Breaker",
+            "entries": [
+              "By 3rd level, multiple enemies are no more a threat than a single enemy.",
+              "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+            ]
+          },
+          {
+            "name": "Offensive: Improved Critical",
+            "entries": [
+              "By 3rd level, your strikes have improved in force. Attacks score a critical on a roll of 19 or 20."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Additional Maneuver",
+            "entries": [
+              "At 5th level, you may choose an additional maneuver from the list.",
+              "You can make the attack action twice per turn."
+            ]
+          },
+          {
+            "name": "Offensive: Additional Maneuver",
+            "entries": [
+              "At 5th level, you may choose an additional maneuver from the list.",
+              "You can make the attack action twice per turn."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Fast Movement",
+            "entries": [
+              "From 6th level, you have gotten used to carrying around the weight of most armors. As long as you are not wearing heavy armor, your movement speed increases by 10 feet."
+            ]
+          },
+          {
+            "name": "Offensive: Know Your Enemy",
+            "entries": [
+              "From 6th level, there may be information that the inactive personality knows about a creature that may be of benefit to the active personality.",
+              "Roll a {@dice d20}. On a score of between 18 and 20, you can determine two of the following characteristics about a single creature:",
+              "The DM may provide this information in any appropriate way.",
+              {
+                "type": "list",
+                "items": [
+                  "Strength score",
+                  "Dexterity score",
+                  "Constitution score",
+                  "Armor class",
+                  "Current hit points",
+                  "Total class levels (if any)"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Escape the Horde",
+            "entries": [
+              "From 7th level, opportunity attacks against you are made with disadvantage."
+            ]
+          },
+          {
+            "name": "Offensive: Remarkable Athlete",
+            "entries": [
+              "From 7th level, you may add half your proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Additional Maneuver",
+            "entries": [
+              "At 9th level, you may choose an additional maneuver from the list.",
+              "You gain an addiitonal superiority die."
+            ]
+          },
+          {
+            "name": "Offensive: Additional Maneuver",
+            "entries": [
+              "At 9th level, you may choose an additional maneuver from the list.",
+              "You gain an addiitonal superiority die."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Hold the Line",
+            "entries": [
+              "From 10th level, creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach. If you hit a creature with an opportunity attack, the target’s speed is reduced to 0 until the end of the current turn."
+            ]
+          },
+          {
+            "name": "Offensive: Battlerager Charge",
+            "entries": [
+              "From 10th level, you can take the Dash action as a bonus action. Your superiority dice are now {@dice d10}s."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Whirlwind Attack",
+            "entries": [
+              "At 11th level, you can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+            ]
+          },
+          {
+            "name": "Offensive: Multi Attack",
+            "entries": [
+              "At 11th level, you can can take the attack action three times per turn."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Additional Maneuver",
+            "entries": [
+              "At 13th level, you may choose an additional maneuver from the list."
+            ]
+          },
+          {
+            "name": "Offensive: Additional Maneuver",
+            "entries": [
+              "At 13th level, you may choose an additional maneuver from the list."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Modified Blindsense",
+            "entries": [
+              "NOTE: This assumes the character is a Drow - if not, use regular Blindsense ability or substitute for an appropriate ability.",
+              "From 14th level, you no longer suffer disadvantage when fighting in direct sunlight as you can now rely on your keen hearing to compensate. You may not use vision-based perception skills at the same time, up to a range of 10 feet."
+            ]
+          },
+          {
+            "name": "Offensive: Retaliation",
+            "entries": [
+              "From 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Evasion",
+            "entries": [
+              "From 15th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the save, half damage if you fail."
+            ]
+          },
+          {
+            "name": "Offensive: Opportunist",
+            "entries": [
+              "From 15th level, whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Offensive: Relentless",
+            "entries": [
+              "At 17th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.",
+              "You gain an addiitonal superiority die."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Master Duelist",
+            "entries": [
+              "From 18th level, if you miss with an attack roll, you can roll it again with advantage. Once you do so, you can’t use this again until you finish a short or long rest."
+            ]
+          },
+          {
+            "name": "Offensive: Improved Superiority/Survivor",
+            "entries": [
+              "At 18th level, your superiority dice are now {@dice d12}s.",
+              "At the start of each turn, you regain HP equal to 3 + Constitution modifier if you have no more than half your hit points left. You don't gain this benefit if you have 0 hit points."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Defensive: Foe Slayer",
+            "entries": [
+              "At 20th level, once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favoured enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+            ]
+          },
+          {
+            "name": "Offensive: Stroke of Luck",
+            "entries": [
+              "At 20th level, if your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}
