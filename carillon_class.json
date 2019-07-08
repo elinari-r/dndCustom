@@ -120,7 +120,7 @@
         "startingEquipment": {
           "additionalFromBackground": true,"default": [
             "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-            "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+            "a set of 5 Carillon bells, made of any material that produces sound when struck",
             "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
             "(a) a {@item dagger|phb|dagger} of (b) a sword you have proficiency with"
           ],
@@ -136,8 +136,9 @@
             {
               "name": "Spellcasting",
               "entries": [
-                  "INTRO HERE",
-  
+                  "Whether bestowed by a higher power or simply a rare natural ability, those known as Carillon direct both arcane and divine energies through precise motions and specific types of sound.",
+                  "Often discovered by clerics and others of religious orders, a Carillon can touch the Weave to show the essence of an entity - then use their years of study and training with specialised tools to control or condemn the entity as the situation requires.",
+                  "A Carillon may only use sound to cast. They have the most control when using their bells, but in an emergency can attempt to produce the same notes by singing, whistling, or striking an object that will cause the correct note to sound.",
                 {
                   "type": "entries",
                   "name": "Cantrips",
@@ -180,7 +181,8 @@
                   "type": "entries",
                   "name": "Carillon Bells",
                   "entries": [
-                    "Your bells are how you channel your spells, and how you cast them out towards enemies. If you are without your bells or any other metal item that can be rung or struck to cause sound, your spells are harder to cast as you rely on whistling to carry the required notes. Your spell DC is reduced by 2."
+                    "The main tools of a Carillon are curious - bells without clappers, made of metal or crystal or glass that emits a particular note depending on its size. Only a Carillon can cause the bells to sound, their unique ability forming the striking force that brings out the tone. Bells may be used alone or in pairs; some acting in favour of the Carillon and their allies, while others ring in pain and compulsion to their enemies.",
+                    "Your bells are how you channel your spells, and how you cast them out towards enemies. If you are without your bells or any other item that can be rung or struck to cause sound, your spells are harder to cast as you rely on whistling or singing to carry the required notes. Your spell DC is reduced by 2 when attempting a spell with an improvised or vocal casting focus."
                   ]
                 }
               ]
