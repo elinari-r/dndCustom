@@ -187,17 +187,17 @@
                     {
                       "type": "table",
                       "colLabels": [
-                        "Note Name", "Meaning", "Effect"
+                        "Note-Name", "Meaning", "Effect"
                       ],
                       "colStyles": [
                         "col-xs-3", "col-xs-3", "col-xs-3"
                       ],
                       "rows": [
-                        ["Deria", "Sense-Builder", "Even the tiniest sound from this bell can broaden the ringer's senses to let them help or hinder - detection spells, invisibility spells, and spells that empower use this bell"],
-                        ["Fysi", "Nature-Holder", "Allows the ringer control over nature and the elemental forces of fire, earth, air, water - thunder- and lightning-based spells are also cast using this bell"],
+                        ["Deria", "'Sense-Builder'", "Even the tiniest sound from this bell can broaden the ringer's senses to let them help or hinder - detection spells, invisibility spells, and spells that empower use this bell"],
+                        ["Fysi", "'Nature-Holder'", "Allows the ringer control over nature and the elemental forces of fire, earth, air, water - thunder- and lightning-based spells are also cast using this bell"],
                         ["Rauha", "'Peace-Bringer'", "The bell of life and death - healing, reviving, and restoring spells use this bell, as well as ones that banish"],
-                        ["Tounao", "Mind-Alterer", "Empowers the ringer with the ability to affect a person on a mental or spiritual level - spells that deal with psychic or radiant effects, as well as charming spells"],
-                        ["Gildi", "Force-Might", "The tone from the heaviest bell hits with great physical force - the sound can bludgeon, pierce, or slash whatever it is directed at"]
+                        ["Tounao", "'Mind-Alterer'", "Empowers the ringer with the ability to affect a person on a mental or spiritual level - spells that deal with psychic or radiant effects, as well as charming spells"],
+                        ["Gildi", "'Force-Might'", "The tone from the heaviest bell hits with great physical force - the sound can bludgeon, pierce, or slash whatever it is directed at"]
                       ]
                     }
                   ]
@@ -207,13 +207,13 @@
           ],
           [
             {
-              "name": "Note-Chaser",
+              "name": "Sound Knowledge",
               "entries": [
                 {
                   "type": "entries",
                   "entries": [
-                    "By 2nd level, you are confident in your ability to cast in combat situations.",
-                    "When a hostile creature's movement would provoke an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than make a melee attack. The spell must have a casting time of 1 action, and must only target that creature."
+                    "At 2nd level, you are aware of aspects of certain creatures that may be of use in difficult situations.",
+                    "Choose two types of enemies: Aberration, Elemental, Fey, Fiend (simple or shapechanger fiends only - not devil/demon/yugoloth), Monstrosity, Undead. You have advantage on Intelligence checks to recall information about them. "
                   ]
                 }
               ]
@@ -243,9 +243,11 @@
           ],
           [
             {
-                "name": "FIFTH LEVEL",
+                "name": "Sonorous Aura",
                 "entries": [
-                  "STUFF HERE"
+                  "At 5th level, your skill with your bells allows them to both boost and distract at the same time.",
+                  "When a creature within 60 feet of you makes an attack roll, ability check, or damage roll, you can use your reaction to ring whichever bell you have drawn as a spell-less distraction. The creature takes a {@dice 1d6} penalty to its roll, while all of your allies within 30 feet gain advantage on attacks made against that creature until the start of your next turn. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals damage. The creature is immune if it cannot hear you.",
+                  "Once you use this feature, you can't use it again until you finish a short or long rest."
                 ]
               }
           ],
@@ -254,7 +256,7 @@
               "name": "Quartet",
               "entries": [
                 "Familiar sounds bring with them new wisdom.",
-                "You add one of the following spells to your prepared spells list: {@spell Aid|phb} (Deria), {@spell Flame Blade|xge} (Fysi), {@spell Lesser Restoration|phb} (Rauha), {@spell Mind Spike|xge} (Tounao), {@spell Spiritual Weapon|xge} (Gildi)"
+                "You add one of the following spells to your prepared spells list: {@spell Aid|phb} (Deria), {@spell Flame Blade|phb} (Fysi), {@spell Lesser Restoration|phb} (Rauha), {@spell Mind Spike|xge} (Tounao), {@spell Spiritual Weapon|phb} (Gildi)"
               ]
             },
             {
