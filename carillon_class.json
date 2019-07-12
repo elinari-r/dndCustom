@@ -181,9 +181,25 @@
                   "type": "entries",
                   "name": "Carillon Bells",
                   "entries": [
-                    "The main tools of a Carillon are curious - bells without clappers, made of metal or crystal or glass that emits a particular note depending on its size. Only a Carillon can cause the bells to sound, their unique ability forming the striking force that brings out the tone. Bells may be used alone or in pairs; some acting in favour of the Carillon and their allies, while others ring in pain and compulsion to their enemies.",
+                    "The main tools of a Carillon are curious - bells without clappers, made of metal or crystal or strong glass, that emit a particular note depending on its size. Only a Carillon can cause the bells to sound, their unique affinity forming the striking force that brings out the tone. Bells may be used alone or in pairs; some acting in favour of the Carillon and their allies, while others ring in pain and compulsion to their enemies.",
                     "Your bells are how you channel your spells, and how you cast them out towards enemies. If you are without your bells or any other item that can be rung or struck to cause sound, your spells are harder to cast as you rely on whistling or singing to carry the required notes. Your spell DC is reduced by 2 when attempting a spell with an improvised or vocal casting focus.",
-                    "A full set comprises of 5 bells, each a different size, but all small enough for even a halfling to handle them with a single hand. Each is marked in some way with it's 'note-name'; depending on the bells' material, this mark can be carved, painted, or even acid-etched into either the body or the handle."
+                    "A full set comprises of 5 bells, each a different size, but still small enough for even a halfling to handle with a single hand. Each is marked in some way with it's 'note-name'; depending on the bells' material, this mark can be carved, painted, or even acid-etched into either the body or the handle.",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "Note Name", "Meaning", "Effect"
+                      ],
+                      "colStyles": [
+                        "col-xs-3", "col-xs-3", "col-xs-3"
+                      ],
+                      "rows": [
+                        ["Deria", "Sense-Builder", "Even the tiniest sound from this bell can broaden the ringer's senses to let them help or hinder - detection spells, invisibility spells, and spells that empower use this bell"],
+                        ["Fysi", "Nature-Holder", "Allows the ringer control over nature and the elemental forces of fire, earth, air, water - thunder- and lightning-based spells are also cast using this bell"],
+                        ["Rauha", "'Peace-Bringer'", "The bell of life and death - healing, reviving, and restoring spells use this bell, as well as ones that banish"],
+                        ["Tounao", "Mind-Alterer", "Empowers the ringer with the ability to affect a person on a mental or spiritual level - spells that deal with psychic or radiant effects, as well as charming spells"],
+                        ["Gildi", "Force-Might", "The tone from the heaviest bell hits with great physical force - the sound can bludgeon, pierce, or slash whatever it is directed at"]
+                      ]
+                    }
                   ]
                 }
               ]
@@ -191,18 +207,25 @@
           ],
           [
             {
-              "name": "Something else?",
-              "entries": [
-                "Some stuff here"
-              ]
-            },
-            {
-              "name": "SECOND LEVEL",
+              "name": "Note-Chaser",
               "entries": [
                 {
                   "type": "entries",
                   "entries": [
-                    "STUFF HERE."
+                    "By 2nd level, you are confident in your ability to cast in combat situations.",
+                    "When a hostile creature's movement would provoke an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than make a melee attack. The spell must have a casting time of 1 action, and must only target that creature."
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Trio",
+              "entries": [
+                {
+                  "type": "entries",
+                  "entries": [
+                    "Knowledge brings gifts, and for a Carillon those often come in the form of new ways to channel intent through sound.",
+                    "You add one of the following spells to your prepared spells list: {@spell Faerie Fire|phb} (Deria), {@spell Absorb Elements|xge} (Fysi), {@spell Healing Word|phb} (Rauha), {@spell Command|phb} (Tounao), {@spell Ice Knife|xge} (Gildi)"
                   ]
                 }
               ]
@@ -228,9 +251,16 @@
           ],
           [
             {
-              "name": "SIXTH LEVEL",
+              "name": "Quartet",
               "entries": [
-                "STUFF HERE"
+                "Familiar sounds bring with them new wisdom.",
+                "You add one of the following spells to your prepared spells list: {@spell Aid|phb} (Deria), {@spell Flame Blade|xge} (Fysi), {@spell Lesser Restoration|phb} (Rauha), {@spell Mind Spike|xge} (Tounao), {@spell Spiritual Weapon|xge} (Gildi)"
+              ]
+            },
+            {
+              "name": "something else",
+              "entries": [
+                "stuff"
               ]
             }
           ],
@@ -247,9 +277,16 @@
           [],
           [
             {
-              "name": "TENTH LEVEL",
+              "name": "Concerto",
               "entries": [
-                "STUFF HERE."
+                "More sounds weave together, more complex knowledge now seeming easier for you to grasp.",
+                "You add one of the following spells to your prepared spells list: {@spell Crusader's Mantle|phb} (Deria), {@spell Thunder Step|xge} (Fysi), {@spell Beacon of Hope|phb} (Rauha), {@spell Fear|phb} (Tounao), {@spell Blinding Smite|phb} (Gildi)"
+              ]
+            },
+            {
+              "name": "something else",
+              "entries": [
+                "stuff"
               ]
             }
           ],
@@ -273,9 +310,16 @@
           [],
           [
             {
-              "name": "FOURTEENTH LEVEL",
+              "name": "Symphony",
               "entries": [
-                "STUFF HERE"
+                "Even in the noisiest of times, you can isolate each individual sound with ease.",
+                "You add one of the following spells to your prepared spells list: {@spell Stoneskin|phb} (Deria), {@spell Elemental Bane|xge} (Fysi), {@spell Banishment|phb} (Rauha), {@spell Confusion|phb} (Tounao), {@spell Staggering Smite|phb} (Gildi)"
+              ]
+            },
+            {
+              "name": "something else",
+              "entries": [
+                "stuff"
               ]
             }
           ],
