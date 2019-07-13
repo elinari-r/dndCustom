@@ -160,7 +160,7 @@
                   "type": "entries",
                   "name": "Spellcasting Ability",
                   "entries": [
-                    "Wisdom is your spellcasting ability for your Carillon spells, as you draw on your knowledge of various deathforms to focus your casting. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Carillon spell you cast and when making an attack roll with one.",
+                    "Wisdom is your spellcasting ability for your Carillon spells, as you draw on your knowledge of various elements of existence to focus your casting. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Carillon spell you cast and when making an attack roll with one.",
                     {
                       "type": "abilityDc",
                       "name": "Spell",
@@ -213,7 +213,7 @@
                   "type": "entries",
                   "entries": [
                     "At 2nd level, you are aware of aspects of certain creatures that may be of use in difficult situations.",
-                    "Choose two types of enemies: Aberration, Elemental, Fey, Fiend (simple or shapechanger fiends only - not devil/demon/yugoloth), Monstrosity, Undead. You have advantage on Intelligence checks to recall information about them. "
+                    "Choose two types of enemies: {@filter aberrations|bestiary|type=aberration}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, Fiend (simple or shapechanger fiends only - not devil/demon/yugoloth), {@filter monstrosity|bestiary|type=monstrosity}, {@filter undead|bestiary|type=undead}. You have advantage on Intelligence checks to recall information about them. "
                   ]
                 }
               ]
@@ -255,7 +255,7 @@
             {
               "name": "Quartet",
               "entries": [
-                "Familiar sounds bring with them new wisdom.",
+                "Familiar sounds bring with them new wisdom. At 6th level, certain sounds are easier to call forth and channel.",
                 "You add one of the following spells to your prepared spells list: {@spell Aid|phb} (Deria), {@spell Flame Blade|phb} (Fysi), {@spell Lesser Restoration|phb} (Rauha), {@spell Mind Spike|xge} (Tounao), {@spell Spiritual Weapon|phb} (Gildi)"
               ]
             },
@@ -281,7 +281,7 @@
             {
               "name": "Concerto",
               "entries": [
-                "More sounds weave together, more complex knowledge now seeming easier for you to grasp.",
+                "By 10th level, more sounds weave together, more complex knowledge now seeming easier for you to grasp.",
                 "You add one of the following spells to your prepared spells list: {@spell Crusader's Mantle|phb} (Deria), {@spell Thunder Step|xge} (Fysi), {@spell Beacon of Hope|phb} (Rauha), {@spell Fear|phb} (Tounao), {@spell Blinding Smite|phb} (Gildi)"
               ]
             },
@@ -314,7 +314,7 @@
             {
               "name": "Symphony",
               "entries": [
-                "Even in the noisiest of times, you can isolate each individual sound with ease.",
+                "At 14th level, even in the noisiest of times, you can isolate each individual sound with ease.",
                 "You add one of the following spells to your prepared spells list: {@spell Stoneskin|phb} (Deria), {@spell Elemental Bane|xge} (Fysi), {@spell Banishment|phb} (Rauha), {@spell Confusion|phb} (Tounao), {@spell Staggering Smite|phb} (Gildi)"
               ]
             },
