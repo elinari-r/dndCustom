@@ -1,0 +1,485 @@
+{
+    "title":"PDXConspiracy",
+    "subtitle":"What Happens at PDXCon...",
+    "teaser":"Conventions; where hundreds or even thousands of people gather together around a common interest. There’s a lot of crazy things that go on at cons - some of it is even intentional. The stuff that isn’t is usually the result of an over-excited attendee, a case of mistaken identity, or a difference of opinion turned nasty fist-fight. There’s always a lot to see and do at a con - how much of it is part of the show schedule is a different matter altogether...",
+    "cover":null,
+    "description":"You’ve paid for your ticket, your travel, your accommodation - the big weekend is finally here. Maybe you’ve been hyped to get the latest news and info, get hands-on with upcoming releases, or just want to mingle with friends and developers. That’s the great thing about conventions - you can do almost anything you want.\nAlmost.\nEverything comes down to these two days; from when the doors open on the morning of day one, to when the afterparty (or even the after-afterparty) winds down at the end of day two, you’re here to make the most of this. It’s a building full of gamers and developers, world-domination fanatics and story-crafting afficionados, history buffs and sci-fi enthusiasts. “There’s nowt as strange as folk”, as they say.\nSure, you’re all here for the weekend in this sweltering venue and non-stop crowds. But the journey really started somewhere else - otherwise, why would you have travelled as far as you have to be here? Your character is at the con right now, but maybe there’s something from their past that drives the story forward - flashbacks are A-OK in this playset. If you want to do a flashback scene, remember that time doesn’t really stop at the con - so what is your character doing while they’re on this little reverie? Are they zoning out in the middle of a panel talk? Waiting for their turn on a game demo? Let the rest of the players know when you start the scene - and who knows, maybe someone will jostle you from your thoughts by the end of it.",
+    "credits":"#Credits\nMade via Fiasco-Mustache\n#Boilerplate\nThis playset is an accessory for the Fiasco role-playing game by Bully Pulpit Games.\nThis playset is copyright 2019 by Tegan Harris. Fiasco is copyright 2009 by Jason Morningstar. All rights are reserved.\nFor more information about Fiasco or to download other playsets and materials, visit www.bullypulpitgames.com.\nIf you’d like to create your own playset or other Fiasco-related content, we’d like to help. Write us at info@bullypulpitgames.com.",
+    "sections":[
+        {
+            "label":"Relationships",
+            "categories":[
+                {"label":"Old Friends",
+                    "details":[
+                        {"label":"Close friends since you were 12"},
+                        {"label":"University/college friends, reunited"},
+                        {"label":"Siblings, only one of whom is competitive"},
+                        {"label":"A couple, happy or otherwise"},
+                        {"label":"Played games together for years, first time meeting face-to-face"},
+                        {"label":"The friend who always gets you into trouble"}
+                    ]
+                },
+                {"label":"Strangers",
+                    "details":[
+                        {"label":"Ended up on the same flight/train/bus on the way here"},
+                        {"label":"Got chatting in the entry queue"},
+                        {"label":"Mistaken identity - one of you thought the other was someone they knew"},
+                        {"label":"Staying at the same hotel"},
+                        {"label":"Got kicked out of the bar at the same time last night"},
+                        {"label":"Kind-hearted soul and someone who looks lost and alone"}
+                    ]
+                },
+                {"label":"New Friends",
+                    "details":[
+                        {"label":"Immediate frenemies"},
+                        {"label":"Mutual game mechanic interest/dislike"},
+                        {"label":"Friends-of-friends, so kind-of-friends by default?"},
+                        {"label":"“Didn’t we talk to each other here last year?”"},
+                        {"label":"There’s a slight language barrier, but it’s workable"},
+                        {"label":"Sharing a hotel room for convenience"}
+                    ]
+                },
+                {"label":"It’s Still Work",
+                    "details":[
+                        {"label":"Longtime co-workers of the host company"},
+                        {"label":"Stage manager and stage host"},
+                        {"label":"A pair of stressed-out organisers"},
+                        {"label":"Press staff writer and photographer"},
+                        {"label":"Venue staff"},
+                        {"label":"“I’ve only worked for them for two weeks” “Me too”"}
+                    ]
+                },
+                {"label":"Supporting Roles",
+                    "details":[
+                        {"label":"Influencer and partner"},
+                        {"label":"Potential future employees"},
+                        {"label":"Co-creators of a popular game mod"},
+                        {"label":"One of you really doesn’t want to be here"},
+                        {"label":"Representatives from a partner company"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Wait, What?",
+                    "details":[
+                        {"label":"“Oh. We thought more people would be in costume…”"},
+                        {"label":"Rival company developers"},
+                        {"label":"‘Incognito’ voice actor star and their ‘handler’"},
+                        {"label":"Item #4"},
+                        {"label":"“Are those two...dressed as vampires, or...?”"},
+                        {"label":"Item #6"}
+                    ]
+                }
+            ]
+        },
+        {"label":"Section #2",
+            "categories":[
+                {"label":"Category #1",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #2",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #3",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #4",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #5",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #6",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                }
+            ]
+        },
+        {"label":"Section #3",
+            "categories":[
+                {"label":"Category #1",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #2",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #3",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #4",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #5",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #6",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                }
+            ]
+        },
+        {"label":"Section #4",
+            "categories":[
+                {"label":"Category #1",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #2",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #3",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #4",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #5",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                },
+                {"label":"Category #6",
+                    "details":[
+                        {"label":"Item #1"},
+                        {"label":"Item #2"},
+                        {"label":"Item #3"},
+                        {"label":"Item #4"},
+                        {"label":"Item #5"},
+                        {"label":"Item #6"}
+                    ]
+                }
+            ]
+        }
+    ],
+    "section1":"Section #1",
+    "section1_category1":"Category #1",
+    "section1_category1_detail1":"Item #1",
+    "section1_category1_detail2":"Item #2",
+    "section1_category1_detail3":"Item #3",
+    "section1_category1_detail4":"Item #4",
+    "section1_category1_detail5":"Item #5",
+    "section1_category1_detail6":"Item #6",
+    "section1_category2":"Category #2",
+    "section1_category2_detail1":"Item #1",
+    "section1_category2_detail2":"Item #2",
+    "section1_category2_detail3":"Item #3",
+    "section1_category2_detail4":"Item #4",
+    "section1_category2_detail5":"Item #5",
+    "section1_category2_detail6":"Item #6",
+    "section1_category3":"Category #3",
+    "section1_category3_detail1":"Item #1",
+    "section1_category3_detail2":"Item #2",
+    "section1_category3_detail3":"Item #3",
+    "section1_category3_detail4":"Item #4",
+    "section1_category3_detail5":"Item #5",
+    "section1_category3_detail6":"Item #6",
+    "section1_category4":"Category #4",
+    "section1_category4_detail1":"Item #1",
+    "section1_category4_detail2":"Item #2",
+    "section1_category4_detail3":"Item #3",
+    "section1_category4_detail4":"Item #4",
+    "section1_category4_detail5":"Item #5",
+    "section1_category4_detail6":"Item #6",
+    "section1_category5":"Category #5",
+    "section1_category5_detail1":"Item #1",
+    "section1_category5_detail2":"Item #2",
+    "section1_category5_detail3":"Item #3",
+    "section1_category5_detail4":"Item #4",
+    "section1_category5_detail5":"Item #5",
+    "section1_category5_detail6":"Item #6",
+    "section1_category6":"Category #6",
+    "section1_category6_detail1":"Item #1",
+    "section1_category6_detail2":"Item #2",
+    "section1_category6_detail3":"Item #3",
+    "section1_category6_detail4":"Item #4",
+    "section1_category6_detail5":"Item #5",
+    "section1_category6_detail6":"Item #6",
+    "section2":"Section #2",
+    "section2_category1":"Category #1",
+    "section2_category1_detail1":"Item #1",
+    "section2_category1_detail2":"Item #2",
+    "section2_category1_detail3":"Item #3",
+    "section2_category1_detail4":"Item #4",
+    "section2_category1_detail5":"Item #5",
+    "section2_category1_detail6":"Item #6",
+    "section2_category2":"Category #2",
+    "section2_category2_detail1":"Item #1",
+    "section2_category2_detail2":"Item #2",
+    "section2_category2_detail3":"Item #3",
+    "section2_category2_detail4":"Item #4",
+    "section2_category2_detail5":"Item #5",
+    "section2_category2_detail6":"Item #6",
+    "section2_category3":"Category #3",
+    "section2_category3_detail1":"Item #1",
+    "section2_category3_detail2":"Item #2",
+    "section2_category3_detail3":"Item #3",
+    "section2_category3_detail4":"Item #4",
+    "section2_category3_detail5":"Item #5",
+    "section2_category3_detail6":"Item #6",
+    "section2_category4":"Category #4",
+    "section2_category4_detail1":"Item #1",
+    "section2_category4_detail2":"Item #2",
+    "section2_category4_detail3":"Item #3",
+    "section2_category4_detail4":"Item #4",
+    "section2_category4_detail5":"Item #5",
+    "section2_category4_detail6":"Item #6",
+    "section2_category5":"Category #5",
+    "section2_category5_detail1":"Item #1",
+    "section2_category5_detail2":"Item #2",
+    "section2_category5_detail3":"Item #3",
+    "section2_category5_detail4":"Item #4",
+    "section2_category5_detail5":"Item #5",
+    "section2_category5_detail6":"Item #6",
+    "section2_category6":"Category #6",
+    "section2_category6_detail1":"Item #1",
+    "section2_category6_detail2":"Item #2",
+    "section2_category6_detail3":"Item #3",
+    "section2_category6_detail4":"Item #4",
+    "section2_category6_detail5":"Item #5",
+    "section2_category6_detail6":"Item #6",
+    "section3":"Section #3",
+    "section3_category1":"Category #1",
+    "section3_category1_detail1":"Item #1",
+    "section3_category1_detail2":"Item #2",
+    "section3_category1_detail3":"Item #3",
+    "section3_category1_detail4":"Item #4",
+    "section3_category1_detail5":"Item #5",
+    "section3_category1_detail6":"Item #6",
+    "section3_category2":"Category #2",
+    "section3_category2_detail1":"Item #1",
+    "section3_category2_detail2":"Item #2",
+    "section3_category2_detail3":"Item #3",
+    "section3_category2_detail4":"Item #4",
+    "section3_category2_detail5":"Item #5",
+    "section3_category2_detail6":"Item #6",
+    "section3_category3":"Category #3",
+    "section3_category3_detail1":"Item #1",
+    "section3_category3_detail2":"Item #2",
+    "section3_category3_detail3":"Item #3",
+    "section3_category3_detail4":"Item #4",
+    "section3_category3_detail5":"Item #5",
+    "section3_category3_detail6":"Item #6",
+    "section3_category4":"Category #4",
+    "section3_category4_detail1":"Item #1",
+    "section3_category4_detail2":"Item #2",
+    "section3_category4_detail3":"Item #3",
+    "section3_category4_detail4":"Item #4",
+    "section3_category4_detail5":"Item #5",
+    "section3_category4_detail6":"Item #6",
+    "section3_category5":"Category #5",
+    "section3_category5_detail1":"Item #1",
+    "section3_category5_detail2":"Item #2",
+    "section3_category5_detail3":"Item #3",
+    "section3_category5_detail4":"Item #4",
+    "section3_category5_detail5":"Item #5",
+    "section3_category5_detail6":"Item #6",
+    "section3_category6":"Category #6",
+    "section3_category6_detail1":"Item #1",
+    "section3_category6_detail2":"Item #2",
+    "section3_category6_detail3":"Item #3",
+    "section3_category6_detail4":"Item #4",
+    "section3_category6_detail5":"Item #5",
+    "section3_category6_detail6":"Item #6",
+    "section4":"Section #4",
+    "section4_category1":"Category #1",
+    "section4_category1_detail1":"Item #1",
+    "section4_category1_detail2":"Item #2",
+    "section4_category1_detail3":"Item #3",
+    "section4_category1_detail4":"Item #4",
+    "section4_category1_detail5":"Item #5",
+    "section4_category1_detail6":"Item #6",
+    "section4_category2":"Category #2",
+    "section4_category2_detail1":"Item #1",
+    "section4_category2_detail2":"Item #2",
+    "section4_category2_detail3":"Item #3",
+    "section4_category2_detail4":"Item #4",
+    "section4_category2_detail5":"Item #5",
+    "section4_category2_detail6":"Item #6",
+    "section4_category3":"Category #3",
+    "section4_category3_detail1":"Item #1",
+    "section4_category3_detail2":"Item #2",
+    "section4_category3_detail3":"Item #3",
+    "section4_category3_detail4":"Item #4",
+    "section4_category3_detail5":"Item #5",
+    "section4_category3_detail6":"Item #6",
+    "section4_category4":"Category #4",
+    "section4_category4_detail1":"Item #1",
+    "section4_category4_detail2":"Item #2",
+    "section4_category4_detail3":"Item #3",
+    "section4_category4_detail4":"Item #4",
+    "section4_category4_detail5":"Item #5",
+    "section4_category4_detail6":"Item #6",
+    "section4_category5":"Category #5",
+    "section4_category5_detail1":"Item #1",
+    "section4_category5_detail2":"Item #2",
+    "section4_category5_detail3":"Item #3",
+    "section4_category5_detail4":"Item #4",
+    "section4_category5_detail5":"Item #5",
+    "section4_category5_detail6":"Item #6",
+    "section4_category6":"Category #6",
+    "section4_category6_detail1":"Item #1",
+    "section4_category6_detail2":"Item #2",
+    "section4_category6_detail3":"Item #3",
+    "section4_category6_detail4":"Item #4",
+    "section4_category6_detail5":"Item #5",
+    "section4_category6_detail6":"Item #6",
+    "instasetup":{
+        "section1":1,
+        "section2":2,
+        "section3":3,
+        "section4":4,
+        "section1Choice1":{
+            "number":1,
+            "category":1
+        },
+        "section1Choice2":{
+            "number":1,
+            "category":2
+        },
+        "section1Choice3":{
+            "number":1,
+            "category":3
+        },
+        "section1Choice4":{
+            "number":1,
+            "category":4
+        },
+        "section1Choice5":{
+            "number":1,
+            "category":5
+        },
+        "section2Choice1":{
+            "number":1,
+            "category":1
+        },
+        "section2Choice2":{
+            "number":1,
+            "category":2
+        },
+        "section3Choice1":{
+            "number":1,
+            "category":1
+        },
+        "section3Choice2":{
+            "number":1,
+            "category":2
+        },
+        "section4Choice1":{
+            "number":1,
+            "category":1
+        }
+    }
+}
